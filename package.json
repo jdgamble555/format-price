@@ -1,0 +1,28 @@
+{
+  "name": "format-price",
+  "version": "1.0.0",
+  "description": "A demo of a simple TypeScript package that formats a price value.",
+  "keywords": [
+    "demo",
+    "typescript",
+    "price",
+    "formatting"
+  ],
+  "homepage": "https://github.com/jdgamble555/format-price",
+  "bugs": {
+    "url": "https://github.com/jdgamble555/format-price/issues"
+  },
+  "author": "Jonathan Gamble (https://code.build)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdgamble555/format-price.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
