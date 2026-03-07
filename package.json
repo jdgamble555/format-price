@@ -23,6 +23,12 @@
   "type": "module",
   "main": "dist/index.js",
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "ci": "npm run build && npm test"
   }
 }
