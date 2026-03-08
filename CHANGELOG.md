@@ -1,5 +1,11 @@
 # format-price
 
+## 1.0.4
+
+### Patch Changes
+
+- b656ca7: working still
+
 ## 1.0.3
 
 ### Patch Changes

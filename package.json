@@ -1,6 +1,6 @@
 {
   "name": "format-price",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A demo of a simple TypeScript package that formats a price value.",
   "keywords": [
     "demo",
