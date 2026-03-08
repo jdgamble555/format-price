@@ -6,5 +6,5 @@ test("formatPrice", () => {
 });
 
 test("formatPrice with small value", () => {
-    expect(formatPrice(5)).toBe("$5.00");
+    expect(formatPrice(65)).toBe("$5.00");
 });
