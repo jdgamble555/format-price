@@ -1,6 +1,6 @@
 {
   "name": "format-price",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A demo of a simple TypeScript package that formats a price value.",
   "keywords": [
     "demo",
@@ -23,12 +23,16 @@
   "type": "module",
   "main": "dist/index.js",
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   },
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
-    "ci": "npm run build && npm test"
+    "ci": "npm run build && npm test",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   }
 }
